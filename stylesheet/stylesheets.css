@@ -1,0 +1,241 @@
+body{
+   font-family: 'Montserrat', arial!important;  
+}
+.container-fluid{
+    position: relative;
+}
+.next{
+        background-color: #0066ff;
+    border: none;
+    border-radius: 15px;
+    width: 30px;
+    height: 30px;
+}
+.bg{
+    background-image: url(../img/first-bg.png);
+    min-height: 897px;
+    position: relative;
+    background-color: rgba(255 255 255 0.2);
+    box-shadow:0 0 0 450px rgba(0, 0, 0, 0.33) inset;
+    margin-bottom: 210px;
+}
+.bg::after{
+    
+    background: rgba(0,0,0,0.5);
+}
+.container{
+    max-width: 1200px;
+}
+.uppercase{
+    text-transform: uppercase;
+}
+.Logo{
+    color: white;
+    font-size: 39px;
+    font-weight: bold;
+
+}
+header{
+    padding-top: 45px;
+    margin-bottom: 150px;
+}
+.header-link{
+    margin-top: 17px;
+}
+.header-link ul{
+    list-style: none;
+}
+.header-link ul li{
+    display: inline-block;
+}
+.header-link ul li a{
+    margin-left: 65px;
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    
+}
+.buy_now {
+    
+  background-color: #0066ff;
+    text-decoration: none;
+    color: white;
+    border: none;
+    padding: 20px 80px;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+.buy_now:hover{
+    text-decoration: none;
+    color: white;
+}
+.go_to img{
+    vertical-align: sub;
+    margin-right: 5px;
+}
+.crypto{
+    margin-bottom: 165px;
+}
+
+.hi-end {
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+        margin-bottom: 35px;
+    display: inline-block;
+}
+
+.title {
+    color: white;
+    font-size: 56px;
+    max-width: 680px;
+    font-weight: bold;
+    margin-bottom: 60px;
+}
+
+.social {
+    float: right;
+
+}
+.social ul{
+    list-style: none;
+}
+.social ul li{
+    display: inline-block;
+    margin-left: 25px;
+}
+.more a{
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.more {
+    display: inline-block;
+}
+
+.income {
+    max-width: 140px;
+    display: inline-block;
+    margin-right: 40px;
+    margin-bottom: 65px;
+}
+.income span{
+    font-weight: bold;
+}
+.income img{
+    vertical-align: text-bottom;
+    margin-right: 10px;
+}
+.price{
+    font-size: 20px;
+}
+.owl-prev{
+    display: none;
+}
+.owl-next{
+    display: inline-block;
+    position: absolute;
+    top: -50px;
+    right: -135px;
+    width: 35px;
+    border-radius: 50px;
+    height: 35px;
+    text-indent: -9999px;
+    
+   background: url('../img/Arrow-right.png')center no-repeat #0076f8;
+}
+.owl-dots{
+    position: absolute;
+    top: -35px;
+    display:  -webkit-inline-box;
+    right: -90px;
+}
+.owl-dot{
+    height: 10px;
+    width: 10px;
+    border: 2px solid;
+    border-radius: 25px;
+    margin-right: 10px;
+        
+}
+.owl-dot~ .active{
+    width: 10px;
+    height: 10px;
+    border: 2px solid #0076f8;
+}
+.link{
+    padding: 20px 60px;
+    display: inline-block;
+    color: #0076f8;
+    background: none;
+}
+.link:hover{
+    background-color: #0066ff;
+    color: white;
+    text-decoration: none;
+}
+.slider_title {
+    padding-top: 25px;
+    margin-bottom: 60px
+}
+.slider_title p{
+    font-size: 32px;
+    font-weight: bold;
+}
+.slider_title span{
+    font-size: 16px;
+    font-weight: bold;
+}
+.third{
+    margin-top: 180px;
+    width: 50%;
+    min-height: 287px;
+    background: url(../img/third.jpg);
+     box-shadow:0 0 0 450px rgba(0, 0, 0, 0.33) inset;
+}
+.third_title {
+    max-width: 195px;
+    display: inline-block;
+    color: white;
+    margin-left: 80px;
+    margin-top: 55px;
+    font-weight: bold;
+}
+.third_slider{
+    display: inline-block;
+    width: 50%;
+    position: absolute;
+    right: 0px;
+    bottom: 240px;
+    float: right;
+}
+.third_slider .owl-dots{
+    position: absolute;
+    top: 25px;
+    right: 160px;
+}
+.third_slider .owl-next{
+    top:10px;
+    right: 100px;
+}
+.item>div{
+    display: inline-block;
+    font-size: 20px;
+}
+.item>div~div{
+    display: inline-table;
+    font-size: 16px;
+
+}
+.item_title{
+    font-size: 32px;
+    font-weight: bold;
+    
+}
+.item_title~p{
+    font-size: 16px;
+    width: 200px;
+}
