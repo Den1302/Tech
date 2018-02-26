@@ -7,7 +7,7 @@
 	});
 });*/
 $(".go_to").click(function(){
-$("html, body").animate({scrollTop: $("header").height()+ 900 },"slow");
+$("html, body").animate({scrollTop: $("header").height()+ 835 },"slow");
 
 return false;});
 $(document).ready(function(){
