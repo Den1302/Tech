@@ -225,12 +225,13 @@ header{
     margin-top: 55px;
     font-weight: bold;
 }
+
 .third_slider{
     display: inline-block;
     width: 50%;
     position: absolute;
     right: 0px;
-    bottom: 240px;
+    bottom: 40px;
     float: right;
 }
 .third_slider .owl-dots{
